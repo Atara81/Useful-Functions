@@ -1,0 +1,9 @@
+def count_vowels(mystring):
+    mystring = mystring.lower()
+    vowels = ["a", "e", "i", "o", "u"]
+    checker = 0
+    for letter in mystring:
+        if letter in vowels:
+            checker += 1
+
+    return checker
