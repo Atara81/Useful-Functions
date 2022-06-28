@@ -1,0 +1,10 @@
+def uniqueList(yourList):
+    #create an empty set
+    checked = set()
+    for x in yourList:
+        if x in checked:
+            return False
+        else:
+            checked.append(x)
+
+    return True
